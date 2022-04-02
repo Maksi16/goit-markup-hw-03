@@ -15,6 +15,24 @@ body {
 .list {
   list-style: none;
 }
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid tomato;
+}
+ul,
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* Шапка сайта */
+.nav {
+}
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -49,10 +67,15 @@ body {
 .foot-link:focus {
   color: var(--brand-color);
 }
+
+/* Секция герой */
 .hero {
   background-color: #2f303a;
+  text-align: center;
+  outline: 1px solid yellow;
 }
 .hero-text {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -62,6 +85,11 @@ body {
   color: #fff;
 }
 .hero-btn {
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
   font-family: 'Roboto';
   background-color: var(--brand-color);
   font-weight: 700;
@@ -76,6 +104,7 @@ body {
 .hero-btn:focus {
   background-color: #188ce8;
 }
+/* Особенности компании */
 .features-h {
   font-weight: 700;
   font-size: 14px;
@@ -87,7 +116,14 @@ body {
   line-height: 1.71;
   color: var(--second-color);
 }
-.work-text,
+/* Секция чем занимается */
+.work-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Секция команда */
 .team-text {
   font-weight: 700;
   font-size: 36px;
@@ -106,6 +142,7 @@ body {
   text-align: center;
   color: var(--second-color);
 }
+/* Подвал сайта */
 .foot {
   background-color: #2f303a;
 }
@@ -128,6 +165,7 @@ body {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
+/* Портфолио */
 .btn-item {
   font-family: 'Roboto';
   font-weight: 500;
