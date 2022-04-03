@@ -19,8 +19,8 @@
   </head>
   <body>
     <!-- Шапка сайта-->
-    <header>
-      <div class="conteiner">
+    <header class="head">
+      <div class="conteiner flex">
         <nav class="nav">
           <a class="logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
           <ul class="nav-list list">
@@ -55,8 +55,8 @@
       <!-- Особенности  -->
       <section class="features">
         <div class="conteiner">
-          <h2 style="display: none">Особенности компании</h2>
-          <ul class="list">
+          <h2 class="visually-hidden">Особенности компании</h2>
+          <ul class="features-list list">
             <li class="features-item">
               <h3 class="features-h">Внимание к деталям</h3>
               <p class="features-text">
@@ -88,7 +88,7 @@
       <section class="work">
         <div class="conteiner">
           <h2 class="work-text">Чем мы занимаемся</h2>
-          <ul class="list">
+          <ul class="work-list list">
             <li class="work-item">
               <img
                 src="./images/box1.jpg"
@@ -115,26 +115,36 @@
       </section>
       <!-- Команда -->
       <section class="team">
-        <div class="conteiner">
+        <div class="conteiner team-box">
           <h2 class="team-text">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img src="./images/ig.jpg" width="270" alt="фото Игоря Демьяненко" />
+              <img class="team-img" src="./images/ig.jpg" width="270" alt="фото Игоря Демьяненко" />
               <h3 class="team-name">Игорь Демьяненко</h3>
               <p class="team-prof">Product Designer</p>
             </li>
             <li class="team-item">
-              <img src="./images/ol.jpg" width="270" alt="фото Ольги Репиной" />
+              <img class="team-img" src="./images/ol.jpg" width="270" alt="фото Ольги Репиной" />
               <h3 class="team-name">Ольга Репина</h3>
               <p class="team-prof">Frontend Developer</p>
             </li>
             <li class="team-item">
-              <img src="./images/nic.jpg" width="270" alt="фото Николая Тарасова" />
+              <img
+                class="team-img"
+                src="./images/nic.jpg"
+                width="270"
+                alt="фото Николая Тарасова"
+              />
               <h3 class="team-name">Николай Тарасов</h3>
               <p class="team-prof">Marketing</p>
             </li>
             <li class="team-item">
-              <img src="./images/mih.jpg" width="270" alt="фото Михаила Ермакова" />
+              <img
+                class="team-img"
+                src="./images/mih.jpg"
+                width="270"
+                alt="фото Михаила Ермакова"
+              />
               <h3 class="team-name">Михаил Ермаков</h3>
               <p class="team-prof">UI Designer</p>
             </li>
@@ -144,7 +154,7 @@
     </main>
     <!-- Подвал -->
     <footer class="foot">
-      <div class="conteiner">
+      <div class="conteiner foot-box">
         <a class="foot-logo link" href="./index.html"><span class="logo-web">Web</span>Studio</a>
         <address class="foot-address">
           <p class="foot-text">г. Киев, пр-т Леси Украинки, 26</p>
