@@ -8,6 +8,7 @@ body {
 :root {
   --brand-color: #2196f3;
   --second-color: #757575;
+  --card-sed-marg: 30px;
 }
 .link {
   text-decoration: none;
@@ -310,22 +311,23 @@ img {
   display: flex;
   flex-wrap: wrap;
 
-  margin-top: -30px;
-  margin-left: -30px;
+  margin-top: calc(-1 * var(--card-sed-marg));
+  margin-left: calc(-1 * var(--card-sed-marg));
 }
 .projects-item {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-top: 30px;
-  margin-left: 30px;
+  flex-basis: calc(100% / 3 - var(--card-sed-marg));
+  margin-top: var(--card-sed-marg);
+  margin-left: var(--card-sed-marg);
 
   /* outline: 1px solid tomato; */
 }
 .card-box {
   padding: 20px 24px;
-  border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #eeeeee;
 }
+
 .project-h {
   font-size: 18px;
   line-height: 2;
